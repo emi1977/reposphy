@@ -56,7 +56,7 @@ conn.close()
 conn = create_server_connection()
 
 cur = conn.cursor()
-cur.execute("""DELETE from datafund_students WHERE student_name = 'Luisa'""");
+cur.execute("""DELETE from datafund_students WHERE student_name = 'Luisa'""")
 conn.commit()
 cur.close()
 conn.close()
